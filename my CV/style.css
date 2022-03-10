@@ -191,4 +191,58 @@ section {
   header {
     padding: 12px 20px;
   }
+
+  .navigation {
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 1.8em;
+  }
+  section {
+    padding: 80px 40px;
+  }
+
+  .main h2 {
+    font-size: 1em;
+  }
+  .main h3 {
+    font-size: 1.2em;
+  }
+  .main h2 span {
+    font-size: 1.5em;
+  }
+  .content {
+    align-items: center;
+  }
+  footer {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .social-icons {
+    width: 100%;
+  }
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
+  a {
+    font-size: 12px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .card .title {
+    font-size: 12px;
+  }
+  .main {
+    width: 100%;
+    min-height: 10hv;
+    display: flex;
+    align-items: center;
+
+    background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+    background-size: 600px;
+    background-position: center;
+  }
 }
