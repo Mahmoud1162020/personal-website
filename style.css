@@ -133,6 +133,8 @@ section {
 }
 .projects {
   background-color: #1a1a1f;
+  width: 100%;
+  
 }
 
 .projects .content {
@@ -156,6 +158,7 @@ section {
 }
 .project-image img {
   width: 100%;
+  height: 200px;
 }
 .project-info {
   padding: 1em;
@@ -194,6 +197,7 @@ section {
 
   .navigation {
     padding-left: 10px;
+   
   }
   .title {
     font-size: 1.8em;
