@@ -30,6 +30,10 @@ header {
   font-size: 1.1em;
   font-weight: 500;
   padding-left: 30px;
+ 
+}
+.navigation a{
+  margin-left: 5px;
 }
 
 .navigation a:hover {
@@ -117,11 +121,26 @@ section {
 .card {
   background-color: #fff;
   width: 21.2em;
+  height: auto;
   box-shadow: 0 5px 25px rgba(194, 3, 3, 30%);
   border-radius: 10px;
   padding: 25px;
   margin: 15px;
   transition: 0.5s ease;
+  
+}
+.skills-card {
+  background-color: #fff;
+  width: 11.2em;
+  height: auto;
+  box-shadow: 0 5px 25px rgba(194, 3, 3, 30%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.5s ease;
+  justify-content: center;
+  text-align: center;
+  
 }
 .card:hover {
   transform: scale(1.1);
@@ -155,6 +174,10 @@ section {
 }
 .project-card .project-image {
   opacity: 0.9;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
 }
 .project-image img {
   width: 100%;
